@@ -1,0 +1,56 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+.venv/
+env/
+ENV/
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+pip-wheel-metadata/
+
+# Tests
+.pytest_cache/
+
+# IDEs and editors
+.vscode/
+.idea/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Secrets and env files
+.env
+*.env
+
+# Data (sensitive) - remove these lines if you DO want to include data in the repo
+data/faces/
+data/attendance.csv
+
+# Databases
+*.sqlite3
+*.db
+
+# Logs
+*.log
+
+# Type checking/cache
+.mypy_cache/
+
+# Large files / models: consider using Git LFS
+# Example:
+#   git lfs install
+#   git lfs track "*.pt"
+#   git add .gitattributes
+
+# Keep other project files (README.md, requirements.txt) tracked
